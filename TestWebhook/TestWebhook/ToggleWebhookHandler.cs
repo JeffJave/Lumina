@@ -107,21 +107,6 @@ namespace TestWebhook
                 }
             }
 
-            //switch (message)
-            //{
-            //    case "我想成為會員":
-            //        if (CreateNewUser(userid)) _ReplyMsg = _DicUserStatusRReply["0"];
-            //        else _ReplyMsg = "發生未知錯誤，請稍後再嘗試";
-            //        break;
-            //    case "加入":
-            //        if (CreateCustomer(curCustomer.Email, curCustomer.Name)) 
-            //        {
-            //            if (UpdateIsCustomer(userid)) _ReplyMsg = _DicUserStatusRReply["4"];
-            //        } 
-            //        else _ReplyMsg = _DicUserStatusRReply["3"];
-            //        break;
-            //}
-
             var replyMessage = new
             {
                 replyToken = replyToken,

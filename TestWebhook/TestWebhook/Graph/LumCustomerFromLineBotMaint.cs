@@ -7,10 +7,6 @@ namespace TestWebhook.Graph
 {
     public class LumCustomerFromLineBotMaint : PXGraph<LumCustomerFromLineBotMaint>
     {
-
-        //public PXSave<LumCustomerFromLineBot> Save;
-        //public PXCancel<LumCustomerFromLineBot> Cancel;
-
         public SelectFrom<LumCustomerFromLineBot>.View LumCustomerFromLineBotView;
 
         public LumCustomerFromLineBotMaint()
